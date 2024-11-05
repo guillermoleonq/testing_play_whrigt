@@ -12,8 +12,7 @@ test('Buscar titulo google', async ({ page }) => {
 test('boton buscar con google', async ({ page }) => {
   await page.goto('https://google.com');
 
-  // Espera que este editable el texto
-   // await page.waitForTimeout(3000);
+ 
   
   
   //await page.locator('//textarea[@title="Buscar"]').fill("Hola mundo");
