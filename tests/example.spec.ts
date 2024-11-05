@@ -13,9 +13,6 @@ test('boton buscar con google', async ({ page }) => {
   await page.goto('https://google.com');
 
  
-  
-  
-  //await page.locator('//textarea[@title="Buscar"]').fill("Hola mundo");
 
   // await page.getByRole('image', { name: 'Google' }).click();  // IMGE NO FNCIONA IR DOCUMENTACION
  // await page.locator('//img[@alt="Google"]').click();
